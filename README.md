@@ -1,8 +1,10 @@
 # LLM Fit GUI
 
+[![Beta](https://img.shields.io/badge/status-beta-orange)](#status) [![Platform](https://img.shields.io/badge/platform-Windows-blue)](#requirements) [![Built for llmfit](https://img.shields.io/badge/built%20for-llmfit-brightgreen)](https://github.com/AlexsJones/llmfit)
+
 **Beta release.** This is an early version and may still have rough edges or bugs. Feedback and bug reports are welcome.
 
-A Windows desktop app (PowerShell + WinForms) that wraps the [`llmfit`](https://github.com/) CLI to help you find, download, and benchmark local LLMs that will run well on your hardware.
+A Windows desktop app (PowerShell + WinForms) that wraps the [`llmfit`](https://github.com/AlexsJones/llmfit) CLI to help you find, download, and benchmark local LLMs that will run well on your hardware.
 
 ## Features
 
@@ -15,7 +17,7 @@ A Windows desktop app (PowerShell + WinForms) that wraps the [`llmfit`](https://
 ## Requirements
 
 - Windows with PowerShell 5.1 or later (included by default).
-- [`llmfit`](https://pypi.org/project/llmfit/) CLI installed and available on your `PATH`.
+- [`llmfit`](https://github.com/AlexsJones/llmfit) CLI installed and available on your `PATH` (also on [PyPI](https://pypi.org/project/llmfit/)).
 - [LM Studio](https://lmstudio.ai/) and/or [Ollama](https://ollama.com/), for the download and benchmark features.
 
 ## Usage
@@ -32,6 +34,10 @@ powershell -NoProfile -File gui.ps1
 
 - `gui.ps1` — main application.
 - `Launch LLM Fit.vbs` — silent launcher (suppresses the PowerShell console window).
+
+## Related
+
+Built on top of [llmfit](https://github.com/AlexsJones/llmfit) — a terminal tool that right-sizes LLM models to your system's RAM, CPU, and GPU. If you find this GUI useful, check out and star the upstream project too.
 
 ## Status
 

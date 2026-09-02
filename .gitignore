@@ -1,0 +1,5 @@
+# PowerShell / editor cruft
+*.log
+*.tmp
+Thumbs.db
+.vscode/
